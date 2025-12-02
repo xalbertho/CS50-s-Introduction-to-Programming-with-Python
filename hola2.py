@@ -8,7 +8,7 @@ load_dotenv()
 
 client = ElevenLabs(
     # Es mejor usar variables de entorno, pero si pones el string directo también sirve
-    api_key="sk_d029f7cbfba74ce9a730e7a612e105ffdb69846d852eb2b7" 
+    api_key="ur elevens lab api" 
 )
 
 # Generar el audio (Tu código estaba bien aquí)
