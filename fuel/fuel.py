@@ -36,3 +36,33 @@ def obtner_resul(num,den):
             pass
         return result
 main()
+
+'''
+antoher solution with ia
+def main():
+    while True:
+        try:
+            fraction = input("Fraction: ")
+            num, den = fraction.split("/")
+            num = int(num)
+            den = int(den)
+
+            if den == 0:
+                continue
+
+            result = num / den
+
+            if 0 <= result <= 1:
+                break
+
+        except (ValueError, ZeroDivisionError):
+            continue
+
+    if result <= 0.1:
+        print("E")
+    elif result >= 0.99:
+        print("F")
+    else:
+        print(f"{result * 100:.0f}%")
+
+'''
