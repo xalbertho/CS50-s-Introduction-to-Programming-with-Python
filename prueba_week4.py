@@ -9,6 +9,6 @@ response = requests.get('https://itunes.apple.com/search?entity=song&limit=50&te
  
 print(response)
 o = response.json()
-
+print(o)
 for result in o["results"]:
     print(result["trackName"])
